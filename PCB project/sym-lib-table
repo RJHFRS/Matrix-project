@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Matrix Routing PCB") (type "KiCad") (uri "${KIPRJMOD}/Matrix Routing PCB.kicad_sym") (options "") (descr ""))
+	(lib (name "snap") (type "KiCad") (uri "C:/Users/raul/Downloads/SnapEDA-Library (2)") (options "") (descr ""))
+)
