@@ -1309,7 +1309,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -8.12 5.08 0)
+				(at -7.874 5.588 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2545,6 +2545,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -2878,6 +2993,12 @@
 		(uuid "ed06d083-3f1f-4a07-92a9-27cebad4acda")
 	)
 	(junction
+		(at 96.52 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287344ee-70f3-4ebd-bdd6-324becbb3a2a")
+	)
+	(junction
 		(at 186.69 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2920,10 +3041,22 @@
 		(uuid "82e83c71-2ece-4f05-b4ea-c7e47a738c8c")
 	)
 	(junction
+		(at 100.33 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a40855f-fcec-46c3-bab8-9a318f4651b3")
+	)
+	(junction
 		(at 228.6 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "927577aa-1227-4a5a-8fbb-3683908c94d8")
+	)
+	(junction
+		(at 111.76 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e87f1922-bb91-440f-82c2-9a972f69bacd")
 	)
 	(no_connect
 		(at 251.46 104.14)
@@ -3335,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 109.22) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5cfc2a-1d51-4c51-a389-bc7cee50ccf7")
+	)
+	(wire
+		(pts
 			(xy 118.11 76.2) (xy 140.97 76.2)
 		)
 		(stroke
@@ -3575,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 132.08 109.22)
+			(xy 99.06 109.22) (xy 111.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3785,7 +3928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04db6787-a7fb-40aa-95e9-e08a68476ef6")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 257.81 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,7 +3950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3840,6 +3983,38 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 254 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS PN" ""
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" ""
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0392eff-3ea4-4408-8c23-a23c4fdb6444")
 		)
@@ -3849,7 +4024,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3934,6 +4109,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ada4c3f-3b62-47cc-bc71-7c2b921b8254")
+		(property "Reference" "#FLG03"
+			(at 96.52 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e301d0d-f242-4e0f-bac6-b87468026648")
+		)
+		(instances
+			(project "Matrix Routing PCB"
+				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 81.28 0)
 		(unit 1)
@@ -3944,7 +4197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b276bfb-44c9-4e34-bf5f-fb23f3536095")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 172.72 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +4219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 178.7652 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4040,7 +4293,86 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "C?")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 200.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f22c25-4cf4-4b32-a96d-868eb25053b5")
+		(property "Reference" "#FLG02"
+			(at 98.425 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 200.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e301d0d-f242-4e0f-bac6-b87468026648")
+		)
+		(instances
+			(project "Matrix Routing PCB"
+				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3c540f-05f2-4cce-9a10-0632a1fdbd60")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 215.9 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.0552 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5427,7 +5759,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5677,7 +6009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5be1734-586f-40f9-a86d-e8c315b3c631")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 245.11 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,7 +6031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5732,6 +6064,38 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 241.3 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS PN" ""
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" ""
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49cf623b-6515-48f3-a3de-7a21c298ff41")
 		)
@@ -5741,7 +6105,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5898,6 +6262,84 @@
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c68a1b0c-155d-42b8-8b57-a6422d651472")
+		(property "Reference" "#FLG01"
+			(at 111.76 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e301d0d-f242-4e0f-bac6-b87468026648")
+		)
+		(instances
+			(project "Matrix Routing PCB"
+				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
