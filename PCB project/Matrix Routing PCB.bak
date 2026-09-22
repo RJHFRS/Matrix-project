@@ -599,7 +599,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-23-T-D"
+		(property "Value" "ESQ-105-11-T-D"
 			(at 1.27 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
