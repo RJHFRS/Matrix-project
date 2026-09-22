@@ -221,7 +221,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_PH_S4B-PH-SM4-TB"
+		(property "Value" "JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 0 5.8 90)
 			(layer "F.Fab")
 			(uuid "a2e6a378-843e-4a71-b46f-8d61e2c92fdf")
@@ -270,7 +270,13 @@
 		(path "/2cce46cf-3a02-44e6-9f8a-5048e2fa9419")
 		(sheetname "/")
 		(sheetfile "Matrix Routing PCB.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "MP1" "MP2")
+			)
+		)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.34 4.51)
@@ -688,6 +694,9 @@
 			(size 1.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.166667)
+			(net "unconnected-(J2-PadMP1)")
+			(pinfunction "MP1_MP1")
+			(pintype "passive+no_connect")
 			(uuid "ad7d5e9d-1594-4695-b7f3-da0b097cf7e5")
 		)
 		(pad "MP2" smd roundrect
@@ -695,6 +704,9 @@
 			(size 1.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.166667)
+			(net "unconnected-(J2-PadMP2)")
+			(pinfunction "MP2_MP2")
+			(pintype "passive+no_connect")
 			(uuid "1709c4a0-d6b3-49de-80b5-72bccb6ec2c3")
 		)
 		(embedded_fonts no)
@@ -862,7 +874,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "b6c8a707-13e5-4e8e-af66-e716cf0a7a46")
@@ -1020,7 +1032,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "C"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "81c84ee1-3ede-4743-a5f5-ef5ce2fb8dcd")
@@ -1177,7 +1189,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-23-T-D"
+		(property "Value" "ESQ-105-11-T-D"
 			(at -0.314556 4.446355 90)
 			(layer "F.Fab")
 			(uuid "ec3c1768-97c2-45be-93e4-eab3be069929")
@@ -1459,7 +1471,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "C"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bfeb6af2-ec90-4cbb-a3cc-8a10e513107c")
@@ -1616,7 +1628,7 @@
 			)
 		)
 		(property "Value" "TSM-102-01-L-DH-A"
-			(at 11.7 11.95 0)
+			(at 3.7 6.4 90)
 			(layer "F.Fab")
 			(uuid "ab8b3aa5-a5de-493f-bf87-9f67137a3677")
 			(effects
@@ -1651,13 +1663,7 @@
 		(path "/9716d05e-c9dd-4040-bad4-ea50493f2cc0")
 		(sheetname "/")
 		(sheetfile "Matrix Routing PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "01" "03" "02" "04")
-			)
-		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.54 1.27)
@@ -1836,13 +1842,6 @@
 			(size 1.78 1.78)
 			(drill 1.78)
 			(layers "*.Cu" "*.Mask")
-			(uuid "681ed09a-6394-422a-8020-04e571101a8e")
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 1.78 1.78)
-			(drill 1.78)
-			(layers "*.Cu" "*.Mask")
 			(uuid "da10c0e1-c8ba-45a8-9578-17858e7a4a0e")
 		)
 		(pad "01" smd rect
@@ -1886,24 +1885,6 @@
 			(uuid "42a941b3-6a50-45e5-9e86-9b2f90e0b8a8")
 		)
 		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "TSM-102-01-L-DH-A.stp")
-				(type model)
-				(checksum "0429DFA1EE017D3F440888B53996B3A1")
-			)
-		)
-		(model "kicad-embed://TSM-102-01-L-DH-A.stp"
-			(offset
-				(xyz 0 0 1.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -180)
-			)
-		)
 	)
 	(footprint "Matrix Routing PCB:SAMTEC_USB-A-S-X-X-SM2-R"
 		(layer "F.Cu")
@@ -1962,7 +1943,7 @@
 				(pins "01" "02" "03" "04" "S1" "S2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.6 10.05)
@@ -2860,7 +2841,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d692be63-46ce-4d30-946f-1d33362ff33a")
@@ -3252,7 +3233,7 @@
 				)
 			)
 		)
-		(property "Value" "53261-0471"
+		(property "Value" "Connector 1x6"
 			(at 0.3 -4.9 0)
 			(layer "F.Fab")
 			(uuid "6710be6c-8bc5-4300-988c-474c000ac502")
