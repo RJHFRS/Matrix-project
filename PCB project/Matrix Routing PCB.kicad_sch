@@ -3799,7 +3799,7 @@
 		)
 		(uuid "1ef6ffbc-1e2c-4ef7-9aea-8e6a953bf453")
 	)
-	(label "USB2_DN"
+	(label "USB1_DN"
 		(at 90.17 111.76 180)
 		(effects
 			(font
@@ -3839,7 +3839,7 @@
 		)
 		(uuid "699c4aae-b54d-429c-8375-30959a5a509c")
 	)
-	(label "USB2_DP"
+	(label "USB1_DP"
 		(at 90.17 114.3 180)
 		(effects
 			(font
@@ -3859,7 +3859,7 @@
 		)
 		(uuid "7936624c-2bc9-453e-8668-b38de2e5486f")
 	)
-	(label "USB1_DN"
+	(label "USB2_DN"
 		(at 195.58 83.82 180)
 		(effects
 			(font
@@ -3919,7 +3919,7 @@
 		)
 		(uuid "c47f52e8-4615-45f8-82ea-5581a61b3192")
 	)
-	(label "USB1_DP"
+	(label "USB2_DP"
 		(at 195.58 81.28 180)
 		(effects
 			(font
@@ -4667,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Matrix Routing PCB:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Matrix Routing PCB:S4BXHSM4TBLFSN"
 			(at 308.61 76.2 0)
 			(hide yes)
 			(show_name no)
