@@ -2837,6 +2837,18 @@
 		(uuid "c7f3eb0d-6067-465f-bdba-daeeda40180e")
 	)
 	(rectangle
+		(start 266.7 165.1)
+		(end 381 203.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "deb426ca-f482-4176-9fde-0582fdb5323e")
+	)
+	(rectangle
 		(start 76.2 170.18)
 		(end 219.71 228.6)
 		(stroke
@@ -2891,6 +2903,17 @@
 			(href "https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf")
 		)
 		(uuid "4c1fff21-c425-4a0f-afb3-aad3b2787972")
+	)
+	(text "Confirmation notes:\n\n1) J2 pin 1 is floating.\n2) J2 pin 2 is TX for the connected board so FTDI RX is connected to it.\n3) J2 pin 3 is RX for the connected board so FTDI TX is connected ot it.\n4) USB OTG has a different VBUS power rail. The USB OTG has to\nwork as device so ID pin needs to be left floating. Please note\nthe ID pin is not fan out so it is floating."
+		(exclude_from_sim no)
+		(at 267.97 182.88 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "6b29f990-802d-43af-92f3-6db2293d2c0c")
 	)
 	(text "USB touch"
 		(exclude_from_sim no)
@@ -4367,7 +4390,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e301d0d-f242-4e0f-bac6-b87468026648")
+			(uuid "3e301d0d-f242-4e0f-bac6-b87468026649")
 		)
 		(instances
 			(project "Matrix Routing PCB"
@@ -6334,7 +6357,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e301d0d-f242-4e0f-bac6-b87468026648")
+			(uuid "3e301d0d-f242-4e0f-bac6-b8746802664a")
 		)
 		(instances
 			(project "Matrix Routing PCB"
@@ -6821,7 +6844,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3493cc4-533a-4bc4-9edb-a53be9f6d595")
+			(uuid "e3493cc4-533a-4bc4-9edb-a53be9f6d596")
 		)
 		(instances
 			(project "Matrix Routing PCB"
