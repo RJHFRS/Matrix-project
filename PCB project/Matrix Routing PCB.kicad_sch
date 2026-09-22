@@ -185,7 +185,7 @@
 					)
 				)
 			)
-			(property "Value" "ESQ-105-23-T-D"
+			(property "Value" "ESQ-105-11-T-D"
 				(at 1.27 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Matrix Routing PCB:ESQ-105-XX-X-D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -617,7 +617,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Matrix Routing PCB:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+			(property "Footprint" "Matrix Routing PCB:S4BXHSM4TBLFSN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4179,7 +4179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "C"
 			(at 257.81 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +4390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086c8602-7a84-40e6-befc-1b91f96ff83e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 127 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -4468,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ada4c3f-3b62-47cc-bc71-7c2b921b8254")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG3"
 			(at 96.52 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -4528,7 +4528,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#FLG03")
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -4556,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 168.91 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f22c25-4cf4-4b32-a96d-868eb25053b5")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 98.425 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -4720,7 +4720,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d5aba18-fc26-4d7e-8ede-2cc2109919da")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR17"
 			(at 228.6 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4798,7 +4798,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR017")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ffcfcc0-6ad7-421e-86fe-4db665682eea")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 100.33 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -4876,7 +4876,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8f4fcd-351a-4653-92a3-142c01471aa6")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 186.69 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -4982,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_PH_S4B-PH-SM4-TB"
+		(property "Value" "JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 304.8 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,7 +5097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32fdf4b2-51a6-42b9-966a-4b9cc0b4e871")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5157,7 +5157,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -5175,7 +5175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49fadd80-895d-47cf-9ffb-495d58388bc9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5235,7 +5235,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -5253,7 +5253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae5e817-e256-4a77-9fc3-9894f3d99f04")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 186.69 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -5313,7 +5313,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -5439,7 +5439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53fa6492-eb39-44db-9cbf-2b33aa9f0bd3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 226.06 127 0)
 			(hide yes)
 			(show_name no)
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -5711,7 +5711,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-23-T-D"
+		(property "Value" "ESQ-105-11-T-D"
 			(at 113.03 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +5838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f47b389-ca0e-4546-9b0a-21e669f6d956")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 241.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5898,7 +5898,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -5926,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Value" "53261-0471"
+		(property "Value" "Connector 1x6"
 			(at 137.16 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,7 +6041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8405dca9-0a3e-435b-a48c-53bf1142eeb2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 140.97 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6101,7 +6101,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "C"
 			(at 215.9 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6603,7 +6603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b256c337-28a5-4632-84e6-20e36761e8b4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6663,7 +6663,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -6692,7 +6692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 245.11 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5280b0-741b-4f09-aa4f-035980afb60e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 96.52 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6855,7 +6855,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -6873,7 +6873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4da4f03-7146-4ef8-97c0-6a85d2fe9c7c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 99.06 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6933,7 +6933,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -6951,7 +6951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c68a1b0c-155d-42b8-8b57-a6422d651472")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG1"
 			(at 111.76 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -7011,7 +7011,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#FLG01")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -7204,7 +7204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e070d51b-8cfd-4735-8707-c04652feba78")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 82.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7264,7 +7264,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1df3ae5-0cc3-479d-b4ce-69c9a49f6126")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 100.33 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -7342,7 +7342,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25c77fc-4f6d-41fe-a86b-55c938f78a7f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7420,7 +7420,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa207241-333c-486c-98b4-9a9afce30a6b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7498,7 +7498,7 @@
 		(instances
 			(project "Matrix Routing PCB"
 				(path "/185b37f5-114c-43cd-be29-6d66c089f841"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
