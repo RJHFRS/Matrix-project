@@ -4179,7 +4179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF"
 			(at 257.81 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
 			(at 254 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7 μF Multilayer Ceramic Capacitor, 16V dc, 10 %, Surface"
 			(at 254 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4223,17 +4223,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 254 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "GRM188C71C475KE21D"
 			(at 254 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4244,7 +4234,29 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "247-8044"
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "490-16337-1-ND"
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
 			(at 254 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 168.91 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4601,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 16V X7R 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4600,17 +4612,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 177.8 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "C0603C104K4RACTU"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +4623,29 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "264-4630"
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C104K4RACTUCT-ND"
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Group"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
+		(property "Value" "JST_PH_S4B-PH-SM4-TB"
 			(at 304.8 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5005,7 +5029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 308.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5073,18 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "455-S4B-PH-SM4-TBCT-ND"
+			(at 308.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "JST"
 			(at 308.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5573,17 +5608,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 231.14 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "FT232RL"
 			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5594,7 +5619,29 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "406-580"
+			(at 231.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "768-1306-ND"
+			(at 231.14 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "FTDI"
 			(at 231.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5713,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-11-T-D"
+		(property "Value" "ESQ-105-12-T-D"
 			(at 113.03 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/esq_th.pdf"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5745,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "PC/104 Connectors Elevated Socket Strip"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5756,7 +5803,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "SAM15563-ND"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5767,7 +5814,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESQ-105-23-T-D"
+		(property "MPN" "ESQ-105-12-T-D"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5778,7 +5825,18 @@
 				)
 			)
 		)
-		(property "RS PN" "197-6628"
+		(property "RS PN" " 208-1157"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5928,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Value" "Connector 1x6"
+		(property "Value" "53261-0471"
 			(at 137.16 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/532610471?display=pdf"
 			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5982,7 +6040,7 @@
 				)
 			)
 		)
-		(property "RS PN" "688-1366"
+		(property "RS PN" "542-7113"
 			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5993,7 +6051,18 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "WM7622CT-ND"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
 			(at 137.16 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6240,7 +6309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10nF"
 			(at 215.9 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +6331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6273,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "KEMET 10 nF Multilayer Ceramic Capacitor, 50V dc, ±10 %, Surface"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6284,17 +6353,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 212.09 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "C0603C103K5RACTU"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6305,7 +6364,29 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "264-4595"
+			(at 212.09 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C103K5RACTUCT-ND"
+			(at 212.09 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Group"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6374,7 +6455,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsm.pdf"
 			(at 114.3 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6466,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic Connector ,Right Angle Surface Pin Header, 4 Contact(s), 2.54 mm Pitch, 2 Row, Unshrouded"
 			(at 114.3 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -6432,17 +6513,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" ""
-			(at 114.3 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "TSM-102-01-L-DH-A"
 			(at 114.3 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -6453,7 +6524,18 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "765-6423"
+			(at 114.3 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "SAM15344-ND"
 			(at 114.3 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -6694,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 245.11 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6716,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6727,7 +6809,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 16V X7R 0603 Multilayer Ceramic Capacitors MLCC"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6738,17 +6820,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 241.3 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS PN" ""
+		(property "MPN" "C0603C104K4RACTU"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6759,7 +6831,29 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "RS PN" "264-4630"
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-C0603C104K4RACTUCT-ND"
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo Group"
 			(at 241.3 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB-A-S-X-X-SM2-R"
+		(property "Value" "USB-A-S-F-B-SM2-R-TR"
 			(at 194.31 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7064,7 +7158,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/usb-a-s-x-x-sm2-x-xx-mkt.pdf"
 			(at 199.39 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Right Angle, Surface Female- 1 Port Type USB Type A IP68 USB Connector USB 2.0"
 			(at 199.39 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7239,7 @@
 				)
 			)
 		)
-		(property "RS PN" ""
+		(property "RS PN" "227-2031"
 			(at 199.39 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7156,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" ""
+		(property "Digikey PN" "612-USB-A-S-F-B-SM2-R-TRCT-ND"
 			(at 199.39 203.2 0)
 			(hide yes)
 			(show_name no)
