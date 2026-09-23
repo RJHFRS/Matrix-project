@@ -560,7 +560,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../Documentation/Matrix Routing PCB_V1.step",
+      "step": "../Documentation/Matrix Routing PCB_V3.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
