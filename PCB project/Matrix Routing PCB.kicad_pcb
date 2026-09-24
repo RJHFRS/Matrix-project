@@ -2165,16 +2165,9 @@
 			(uuid "896ad178-863b-4126-963b-a28e9e98d482")
 		)
 		(embedded_fonts no)
-		(embedded_files
-			(file
-				(name "ESQ-105-12-T-D.stp")
-				(type model)
-				(checksum "9C60A6ED4A7F568BFE6E91E6B5726BAE")
-			)
-		)
-		(model "kicad-embed://ESQ-105-12-T-D.stp"
+		(model "${KIPRJMOD}/3Dmodels/ESQ-105-33-T-D.stp"
 			(offset
-				(xyz 0 0 2.5)
+				(xyz 0 0 7.5)
 			)
 			(scale
 				(xyz 1 1 1)
