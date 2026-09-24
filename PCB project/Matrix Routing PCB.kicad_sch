@@ -3032,8 +3032,8 @@
 		(uuid "a5add9f5-bc4a-42f1-8ccc-9900bdbd3749")
 	)
 	(rectangle
-		(start 77.47 46.99)
-		(end 158.75 90.17)
+		(start 73.66 46.99)
+		(end 161.29 90.17)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3086,6 +3086,16 @@
 			)
 		)
 		(uuid "0f86a0ac-c2d4-4732-9c0a-a5aee1b62b3b")
+	)
+	(text "The pins are too long and they need to be cut or they will collide with the metal work."
+		(exclude_from_sim no)
+		(at 118.11 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a255d88-e298-4930-b81a-17e747cf1051")
 	)
 	(text "Reference designs"
 		(exclude_from_sim no)
@@ -5760,7 +5770,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-12-T-D"
+		(property "Value" "ESQ-105-34-T-D"
 			(at 113.03 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "SAM15563-ND"
+		(property "Digikey PN" "ESQ-105-33-T-D-ND"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5814,7 +5824,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESQ-105-12-T-D"
+		(property "MPN" "ESQ-105-33-T-D"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5835,7 @@
 				)
 			)
 		)
-		(property "RS PN" " 208-1157"
+		(property "RS PN" "208-1163"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)

@@ -7511,6 +7511,80 @@
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
+		(uuid "28171215-915a-41c3-952f-efa8f1afc6d5")
+		(pts
+			(xy 174.9 71.575) (xy 197.65 71.575)
+		)
+		(height -9.75)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "22.75"
+			(at 186.275 60.675 0)
+			(layer "Dwgs.User")
+			(uuid "28171215-915a-41c3-952f-efa8f1afc6d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "494d7de2-4eaa-4af0-a8a0-9fbeebaa420f")
+		(pts
+			(xy 174.9 71.575) (xy 184.15 71.575)
+		)
+		(height -4.25)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "9.25"
+			(at 179.525 66.175 0)
+			(layer "Dwgs.User")
+			(uuid "494d7de2-4eaa-4af0-a8a0-9fbeebaa420f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
 		(uuid "67f2b554-c3d8-46a0-8256-1f752f4f08f3")
 		(pts
 			(xy 249.2 106.575) (xy 249.2 91.575)
@@ -7574,6 +7648,43 @@
 			(at 193.4 111.225 0)
 			(layer "Dwgs.User")
 			(uuid "8a3d0767-363d-47a2-9893-afb3fdcdf7c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "8ffda27f-b32b-4ac4-afc5-de103945486b")
+		(pts
+			(xy 179.4 101.075) (xy 179.4 106.575)
+		)
+		(height 0.25)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5.5"
+			(at 178 103.825 90)
+			(layer "Dwgs.User")
+			(uuid "8ffda27f-b32b-4ac4-afc5-de103945486b")
 			(effects
 				(font
 					(size 1 1)
@@ -7659,6 +7770,43 @@
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
+		(uuid "ae856fce-8cb4-4315-8172-f331d0cb78fe")
+		(pts
+			(xy 174.9 71.575) (xy 202.9 71.575)
+		)
+		(height -15.25)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "28"
+			(at 188.9 55.175 0)
+			(layer "Dwgs.User")
+			(uuid "ae856fce-8cb4-4315-8172-f331d0cb78fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
 		(uuid "bb916a9e-4ae2-41a6-8bbb-22269eb3a404")
 		(pts
 			(xy 253.006 91.439) (xy 261.9 91.439)
@@ -7685,6 +7833,43 @@
 			(at 257.453 111.425 0)
 			(layer "Dwgs.User")
 			(uuid "bb916a9e-4ae2-41a6-8bbb-22269eb3a404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "ed207201-c9e7-4c25-bb21-c6ce5a671358")
+		(pts
+			(xy 174.9 106.575) (xy 174.9 88.325)
+		)
+		(height -5.5)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "18.25"
+			(at 168.25 97.45 90)
+			(layer "Dwgs.User")
+			(uuid "ed207201-c9e7-4c25-bb21-c6ce5a671358")
 			(effects
 				(font
 					(size 1 1)
@@ -7760,44 +7945,6 @@
 			(at 205.75 91.575 90)
 			(layer "Dwgs.User")
 			(uuid "0b635a51-af13-404d-959e-0c97323271e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "287d7764-204f-4af1-987c-24fcaad706c8")
-		(pts
-			(xy 178.7 106.475) (xy 178.7 98.475)
-		)
-		(height 3.8)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "8"
-			(at 181.35 102.475 90)
-			(layer "Dwgs.User")
-			(uuid "287d7764-204f-4af1-987c-24fcaad706c8")
 			(effects
 				(font
 					(size 1 1)
@@ -7988,44 +8135,6 @@
 			(at 218.4 121.325 0)
 			(layer "Dwgs.User")
 			(uuid "9300aaee-2cb0-4ae6-bdc1-efdff3f72278")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "e642de39-0577-4b48-9ed3-58b45b11671f")
-		(pts
-			(xy 174.9 106.575) (xy 174.9 86.575)
-		)
-		(height -2.7)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "20"
-			(at 171.05 96.575 90)
-			(layer "Dwgs.User")
-			(uuid "e642de39-0577-4b48-9ed3-58b45b11671f")
 			(effects
 				(font
 					(size 1 1)
