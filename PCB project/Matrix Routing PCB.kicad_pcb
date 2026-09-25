@@ -2167,7 +2167,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3Dmodels/ESQ-105-23-T-D.stp"
 			(offset
-				(xyz 0 0 2.5)
+				(xyz 0 0 5)
 			)
 			(scale
 				(xyz 1 1 1)
