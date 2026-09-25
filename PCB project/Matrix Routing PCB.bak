@@ -609,7 +609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Matrix Routing PCB:ESQ-105-XX-X-D"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

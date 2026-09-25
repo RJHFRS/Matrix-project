@@ -1867,7 +1867,7 @@
 				)
 			)
 		)
-		(property "Value" "ESQ-105-12-T-D"
+		(property "Value" "ESQ-105-23-T-D"
 			(at -0.314556 4.446355 90)
 			(layer "F.Fab")
 			(uuid "ec3c1768-97c2-45be-93e4-eab3be069929")
@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Description" "PC/104 Connectors Elevated Socket Strip"
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1900,7 +1900,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "SAM15563-ND"
+		(property "Digikey PN" "ESQ-105-23-T-D-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1913,7 +1913,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESQ-105-12-T-D"
+		(property "MPN" "ESQ-105-33-T-D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1926,7 +1926,7 @@
 				)
 			)
 		)
-		(property "RS PN" " 208-1157"
+		(property "RS PN" "TBD"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2165,9 +2165,9 @@
 			(uuid "896ad178-863b-4126-963b-a28e9e98d482")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3Dmodels/ESQ-105-33-T-D.stp"
+		(model "${KIPRJMOD}/3Dmodels/ESQ-105-23-T-D.stp"
 			(offset
-				(xyz 0 0 7.5)
+				(xyz 0 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
