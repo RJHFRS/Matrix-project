@@ -123,10 +123,10 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -151,9 +151,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Manufacturing/FAB/")
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
@@ -168,7 +168,7 @@
 			(uuid "af7ec6a4-448a-4d58-bd87-a55ce0c87c02")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -323,7 +323,7 @@
 			(uuid "134e86ca-59a1-4a95-98ff-fd35fc993988")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -904,12 +904,12 @@
 		(uuid "25bd20a3-175b-4410-a558-b570044b3c49")
 		(at 257.279151 78.135)
 		(property "Reference" "J4"
-			(at -3.679151 -3.4 0)
+			(at 3.250849 -1.98 0)
 			(layer "F.SilkS")
-			(uuid "6f4040e5-bf61-4887-8109-bae5de51c6d8")
+			(uuid "e7e4b95b-f9c2-42d3-82b5-3d7eeaf13be6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -917,7 +917,7 @@
 		(property "Value" "TSM-102-01-L-DH-A"
 			(at 3.620849 6.2 90)
 			(layer "F.Fab")
-			(uuid "d5f2b2f8-8ccf-480d-b14f-40d40a4e7004")
+			(uuid "724f43cc-de2c-417d-96c7-6ec9129d0476")
 			(effects
 				(font
 					(size 1 1)
@@ -929,7 +929,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7658ef56-6598-43c3-9463-be668b0bb5e0")
+			(uuid "92ce76b6-9949-41d9-ae16-a6adf6e49c51")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +940,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5db5c83-24c1-4fab-ba8f-99ccf761899b")
+			(uuid "a66f4e27-646e-49bd-a161-777e8001a79d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +1287,7 @@
 			(uuid "c356f00b-7e71-4e64-a5b8-b76be4c5cf0f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -1443,7 +1443,7 @@
 			(uuid "8147127c-f903-4b79-ac29-2eb835c104d8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -1648,12 +1648,12 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 2.325 0.4 0)
+			(at 2.12 0.2 0)
 			(layer "F.SilkS")
 			(uuid "3a73a49f-aacb-4906-b917-6b5aa9387d82")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -1862,7 +1862,7 @@
 			(uuid "5fb38469-2e09-40a4-b42f-0f9eac422a68")
 			(effects
 				(font
-					(size 1.000504 1.000504)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -2187,7 +2187,7 @@
 			(uuid "9f377cbb-eed9-4efd-b8dd-06551eb6fe9f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -2640,7 +2640,7 @@
 			(uuid "d354a0e2-9534-4ea9-8b28-c7d6f6de35ee")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -2845,12 +2845,12 @@
 		(descr "SSOP, 28 Pin (JEDEC MO-150 variation AH, 1.75mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-150, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=400)")
 		(tags "SSOP SO")
 		(property "Reference" "U1"
-			(at 0 -6.05 0)
+			(at -2.32 -6.05 0)
 			(layer "F.SilkS")
 			(uuid "b307bbdd-c0f7-400d-9f0e-9241c4c1d2bc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3480,7 +3480,7 @@
 			(uuid "777ebd82-c3b4-493a-8aad-bf1ba806b6b1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3690,7 +3690,7 @@
 			(uuid "e97e9f87-cb75-4426-ab24-204dcdb26da6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3846,7 +3846,7 @@
 			(uuid "7fc0ee2f-5a05-4d31-a938-9a1514f2448d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4002,7 +4002,7 @@
 			(uuid "1364cdae-2b2d-4138-b989-b89c6181a287")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.675 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4660,6 +4660,28 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 254.148 79.682)
+		(end 254.402 79.682)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f632c930-52eb-49cf-8ead-6f4544a74936")
+	)
+	(gr_circle
+		(center 253.894 78.889)
+		(end 253.894 79.143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "02493c26-0a6f-4368-9e50-bb9e41f8f0c4")
+	)
 	(gr_arc
 		(start 174.9 73.575)
 		(mid 175.485786 72.160786)
@@ -4747,8 +4769,7 @@
 	(table
 		(column_count 4)
 		(uuid "a9eefcf8-66d3-4697-8895-544acf882222")
-		(locked yes)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(border
 			(external yes)
 			(header yes)
@@ -4773,7 +4794,7 @@
 				(end 135.45 88.740949)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 4 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "7834e490-e71a-4f54-9c2b-485e6318c906")
 				(effects
 					(font
@@ -4788,7 +4809,7 @@
 				(end 91.7569 88.740949)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "73eaee4b-f919-4cac-9987-c19b3845cdf3")
 				(effects
 					(font
@@ -4803,7 +4824,7 @@
 				(end 119.885359 88.740949)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0d6adff3-91a9-42df-966f-f60aaf54ca62")
 				(effects
 					(font
@@ -4818,7 +4839,7 @@
 				(end 135.45 88.740949)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 0 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0f39d344-e7a9-4b62-8a5b-43f05e8a1d40")
 				(effects
 					(font
@@ -4833,7 +4854,7 @@
 				(end 56.835119 92.945697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "731fee34-7544-4d40-bb2c-828998f6d4df")
 				(effects
 					(font
@@ -4848,7 +4869,7 @@
 				(end 91.7569 92.945697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "dd8682f7-3eaa-4a20-b0eb-158ee6522019")
 				(effects
 					(font
@@ -4863,7 +4884,7 @@
 				(end 119.885359 92.945697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "2783ab0e-f272-47e7-adc9-37d0248c89ef")
 				(effects
 					(font
@@ -4878,7 +4899,7 @@
 				(end 135.45 92.945697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "fa268fb9-fdb9-421d-b15b-3fae2f147d43")
 				(effects
 					(font
@@ -4893,7 +4914,7 @@
 				(end 56.835119 96.650697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "b7d86454-5704-4066-88d5-e00c8e212226")
 				(effects
 					(font
@@ -4908,7 +4929,7 @@
 				(end 91.7569 96.650697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "e285890e-b3fe-40c5-be34-6c6723cd2cbd")
 				(effects
 					(font
@@ -4923,7 +4944,7 @@
 				(end 119.885359 96.650697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "7745eb11-09b4-4f76-9c29-d3b26470667a")
 				(effects
 					(font
@@ -4938,7 +4959,7 @@
 				(end 135.45 96.650697)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "5012e619-2e04-40d9-80f0-4477308c4ae2")
 				(effects
 					(font
@@ -4953,7 +4974,7 @@
 				(end 56.835119 100.925224)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "a56c3b07-c029-4a06-b4d5-cc13fe35016d")
 				(effects
 					(font
@@ -4968,7 +4989,7 @@
 				(end 91.7569 100.925224)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0980eff3-f343-4a0b-bf10-17b8af97db91")
 				(effects
 					(font
@@ -4983,7 +5004,7 @@
 				(end 119.885359 100.925224)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "633b7176-e118-4177-bc52-c2a684ed148d")
 				(effects
 					(font
@@ -4998,7 +5019,7 @@
 				(end 135.45 100.925224)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "06c82f7c-dec3-4c76-89fc-967b2a4baaab")
 				(effects
 					(font
@@ -5013,7 +5034,7 @@
 				(end 56.835119 105.122612)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "2bbfbcad-022f-47a6-b18d-5c718b116c3c")
 				(effects
 					(font
@@ -5028,7 +5049,7 @@
 				(end 91.7569 105.122612)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "fb3f83d7-3c36-4d40-a2d9-0f2d998d7284")
 				(effects
 					(font
@@ -5043,7 +5064,7 @@
 				(end 119.885359 105.122612)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0d7a0482-0079-4a0e-9dae-8dc940084db3")
 				(effects
 					(font
@@ -5058,7 +5079,7 @@
 				(end 135.45 105.122612)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "9bf7f16c-c077-46bf-9cb9-d4a9c6d0fca9")
 				(effects
 					(font
@@ -5073,7 +5094,7 @@
 				(end 56.835119 109.32)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "08f28bff-6c58-43e0-ab8c-74fbd1b44704")
 				(effects
 					(font
@@ -5088,7 +5109,7 @@
 				(end 91.7569 109.32)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "996648d1-dc94-4c91-955a-f9a668d56b82")
 				(effects
 					(font
@@ -5103,7 +5124,7 @@
 				(end 119.885359 109.32)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "c197054b-6b06-4313-9b37-24d5773b8ced")
 				(effects
 					(font
@@ -5118,7 +5139,7 @@
 				(end 135.45 109.32)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "a378969f-c871-47c7-bd43-1f1c384b2ab9")
 				(effects
 					(font
@@ -5133,7 +5154,7 @@
 				(end 56.835119 113.525)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "924ba341-7029-4a3b-9672-3b56511c48ad")
 				(effects
 					(font
@@ -5148,7 +5169,7 @@
 				(end 91.7569 113.525)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0c286524-ff2f-485f-9b29-c03ded664290")
 				(effects
 					(font
@@ -5163,7 +5184,7 @@
 				(end 119.885359 113.525)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f4dec0f9-7b01-407c-900f-9088bd7911c8")
 				(effects
 					(font
@@ -5178,7 +5199,7 @@
 				(end 135.45 113.525)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "d52b0c54-bfde-494c-a212-487ecb4a6fb3")
 				(effects
 					(font
@@ -5191,821 +5212,9 @@
 		)
 	)
 	(table
-		(column_count 8)
-		(uuid "2196c706-ea38-43b3-b4c1-a2ffcf4d5195")
-		(locked yes)
-		(layer "F.Fab")
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-		)
-		(column_widths 16.1 16.1 16.1 16.1 16.1 16.1 16.1 16.1)
-		(row_heights 3.3 3.3 3.3 3.3 3.3 3.3 3.3)
-		(cells
-			(table_cell "Drill Holes"
-				(start 16.45 119.325)
-				(end 129.15 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 7 1)
-				(layer "F.Fab")
-				(uuid "e396e0ef-84d3-4645-ae4b-333a26435527")
-				(effects
-					(font
-						(size 2 2)
-						(thickness 0.4)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 32.55 119.325)
-				(end 48.65 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "619a270a-3816-4918-831d-930a7502ca75")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 48.65 119.325)
-				(end 64.75 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "ff47be7a-f5cf-4f17-8a75-e44323169593")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 64.75 119.325)
-				(end 80.85 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "976cce82-74f0-4ea3-b3f6-b7f047e855ec")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 80.85 119.325)
-				(end 96.95 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "906feafd-5f0a-4d9c-982e-ef6cd99d4d4f")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 96.95 119.325)
-				(end 113.05 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "f4d44301-4124-46e6-be13-3922c11eb5a6")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 113.05 119.325)
-				(end 129.15 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 0 0)
-				(layer "F.Fab")
-				(uuid "b9f7cbb7-a411-482a-8d2c-63fe3ef4010f")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell ""
-				(start 129.15 119.325)
-				(end 145.25 122.625)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "bb2b6aaf-8533-415f-89d5-bee3d1fb8c8d")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Count"
-				(start 16.45 122.625)
-				(end 32.55 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "2f587941-62ed-4e2f-adf2-ac3fa1307b18")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Shape"
-				(start 32.55 122.625)
-				(end 48.65 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "6476750c-3124-4999-b4e7-7709c8154feb")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "X Size"
-				(start 48.65 122.625)
-				(end 64.75 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "e23877cb-0152-4602-8982-265ea01cab9b")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Y Size"
-				(start 64.75 122.625)
-				(end 80.85 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "b29c356c-0d54-425c-bf97-5eaf81182695")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Plated"
-				(start 80.85 122.625)
-				(end 96.95 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "a3642e94-e5a7-4c9b-8eb2-a79f23f1ee74")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Via/Pad"
-				(start 96.95 122.625)
-				(end 113.05 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "4ce57e25-78fd-40a4-a9ef-f850ceb2c66e")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Start Layer"
-				(start 113.05 122.625)
-				(end 129.15 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "8aab4452-8ceb-46e3-afc6-576a919dc76d")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Stop layer"
-				(start 129.15 122.625)
-				(end 145.25 125.925)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "56322657-45bc-4ece-8d77-b0d44dc5adaf")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "24"
-				(start 16.45 125.925)
-				(end 32.55 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "1165a66c-7812-4d4d-acd4-ddd3aa2dc851")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Round"
-				(start 32.55 125.925)
-				(end 48.65 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "f3b7751b-d98a-44f6-b45a-f21050d86140")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "0.3000 mm"
-				(start 48.65 125.925)
-				(end 64.75 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "f5c00c66-d1f7-4798-b07a-3dadb093e413")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "0.3000 mm"
-				(start 64.75 125.925)
-				(end 80.85 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "17f1647b-2148-43f1-9814-2b10142ca2e8")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "PTH"
-				(start 80.85 125.925)
-				(end 96.95 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "82ca9921-330e-4ae6-a224-a12017f82c2e")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Via"
-				(start 96.95 125.925)
-				(end 113.05 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "172fdaa9-f69d-4e18-b74b-eb021809490e")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "F.Cu"
-				(start 113.05 125.925)
-				(end 129.15 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "9d27a931-6803-4531-ad85-b667fe5e4ed8")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "B.Cu"
-				(start 129.15 125.925)
-				(end 145.25 129.225)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "0d348035-f19c-4195-bd6d-fd385c5c3a06")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "10"
-				(start 16.45 129.225)
-				(end 32.55 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "b153f5f0-1fc9-423c-becf-b9bf5aa5de07")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Round"
-				(start 32.55 129.225)
-				(end 48.65 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "0ab482ac-e0eb-4794-be70-8e9fdb4dda46")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.0160 mm"
-				(start 48.65 129.225)
-				(end 64.75 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "93a89a03-45c2-4791-9b62-b8c710c9c330")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.0160 mm"
-				(start 64.75 129.225)
-				(end 80.85 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "d0aa7527-95e3-4617-bb45-3e89d1c08ca0")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "PTH"
-				(start 80.85 129.225)
-				(end 96.95 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "c4630efd-99d5-493d-a2f9-558d3787c756")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Pad"
-				(start 96.95 129.225)
-				(end 113.05 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "e6f6a674-6572-43b6-a472-c83ef4bcee19")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "F.Cu"
-				(start 113.05 129.225)
-				(end 129.15 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "91e7653c-547d-4bed-980b-2b3c35cf7a1c")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "B.Cu"
-				(start 129.15 129.225)
-				(end 145.25 132.525)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "ef7e02ae-2d63-40f8-a725-2ee3b67f632e")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "2"
-				(start 16.45 132.525)
-				(end 32.55 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "c5c50672-6a5e-4f00-8003-e0e9b7ab86a4")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Round"
-				(start 32.55 132.525)
-				(end 48.65 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "cdaf88e4-51b2-4a26-9527-d8f10f7e33f2")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.3000 mm"
-				(start 48.65 132.525)
-				(end 64.75 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "f02816b8-767d-40bf-850f-e2772336dfe9")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.3000 mm"
-				(start 64.75 132.525)
-				(end 80.85 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "65e09445-eaf9-48d7-b448-89522ced885f")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "NPTH"
-				(start 80.85 132.525)
-				(end 96.95 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "cbfdf09b-2eba-43be-9ef1-7742965d08c8")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Pad"
-				(start 96.95 132.525)
-				(end 113.05 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "2b38b4d7-e67c-45f8-8c40-eab3ad444c93")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "F.Cu"
-				(start 113.05 132.525)
-				(end 129.15 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "bdbf1268-220a-4786-97ab-62eaab1d5175")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "B.Cu"
-				(start 129.15 132.525)
-				(end 145.25 135.825)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "e8608f2e-13b6-4f5e-a4b1-0488c76675d8")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1"
-				(start 16.45 135.825)
-				(end 32.55 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "77e10f4a-e9d7-440a-ad5b-43849e94973c")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Round"
-				(start 32.55 135.825)
-				(end 48.65 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "c8109bd3-a463-49a8-a5c3-3bbfcbe3117e")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "3.2000 mm"
-				(start 48.65 135.825)
-				(end 64.75 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "23b5b4e5-7503-431e-9256-8d2863760fb1")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "3.2000 mm"
-				(start 64.75 135.825)
-				(end 80.85 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "4ae364c9-e6d6-4a27-bc75-c20824ac050a")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "NPTH"
-				(start 80.85 135.825)
-				(end 96.95 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "5de8cd1a-4d6f-40db-b9fd-e61400c621fe")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Pad"
-				(start 96.95 135.825)
-				(end 113.05 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "768e7ad8-17a7-4010-b567-8c68a2f60b93")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "F.Cu"
-				(start 113.05 135.825)
-				(end 129.15 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "106f9a18-495b-4fd9-b7aa-8ff13c8ae486")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "B.Cu"
-				(start 129.15 135.825)
-				(end 145.25 139.125)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "5632ccab-3d18-4262-abd3-6d381884951a")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1"
-				(start 16.45 139.125)
-				(end 32.55 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "c7dc90b6-b23d-442d-a281-7a71ce34e436")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Round"
-				(start 32.55 139.125)
-				(end 48.65 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "ee082bbe-4ba8-4fed-8746-24f157c73587")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.7800 mm"
-				(start 48.65 139.125)
-				(end 64.75 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "d96365fb-4415-4ede-b1e2-7e352f7135de")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "1.7800 mm"
-				(start 64.75 139.125)
-				(end 80.85 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "a882b72b-2287-42e9-a124-44eb92e67243")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "NPTH"
-				(start 80.85 139.125)
-				(end 96.95 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "6b98f3c6-8042-4b8b-89ed-1deb2a9604d8")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "Pad"
-				(start 96.95 139.125)
-				(end 113.05 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "86e61695-ee1b-4bb8-bf18-34f1b951eaa3")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "F.Cu"
-				(start 113.05 139.125)
-				(end 129.15 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "b2936344-c38c-442c-994d-6cbb011c2c86")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(table_cell "B.Cu"
-				(start 129.15 139.125)
-				(end 145.25 142.425)
-				(margins 1.0025 1.0025 1.0025 1.0025)
-				(span 1 1)
-				(layer "F.Fab")
-				(uuid "7db9e96f-131b-47ed-a18e-8e24c785a368")
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-		)
-	)
-	(table
 		(column_count 7)
 		(uuid "7d14d53c-198d-42b9-afa4-e054fee685ec")
-		(locked yes)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(border
 			(external yes)
 			(header yes)
@@ -6034,7 +5243,7 @@
 				(end 32.4075 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f10dbad5-0ae3-48cb-ac5b-28b6faebbe11")
 				(effects
 					(font
@@ -6049,7 +5258,7 @@
 				(end 58.18643 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "ae0e0fa0-8f69-46fb-81f8-cbdacf9f3941")
 				(effects
 					(font
@@ -6064,7 +5273,7 @@
 				(end 75.679646 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "a35ebaaf-83d1-47c1-8c91-0a7dd972355f")
 				(effects
 					(font
@@ -6079,7 +5288,7 @@
 				(end 93.172861 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3e63543f-0e0e-4ed4-a192-09dacf73e6d0")
 				(effects
 					(font
@@ -6094,7 +5303,7 @@
 				(end 110.666077 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "73aaa8e3-8f5f-491d-bb5c-90a3d9dcefa8")
 				(effects
 					(font
@@ -6109,7 +5318,7 @@
 				(end 124.116435 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "1f253c8a-c65e-4e9a-9706-bb6191ac5fb9")
 				(effects
 					(font
@@ -6124,7 +5333,7 @@
 				(end 141.769661 25.18)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "ebb0a6d4-a63d-415d-b47e-bf4613eb8732")
 				(effects
 					(font
@@ -6139,7 +5348,7 @@
 				(end 32.4075 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "19d45626-1904-4fed-872e-639aab43c3cc")
 				(effects
 					(font
@@ -6154,7 +5363,7 @@
 				(end 58.18643 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "87d0c425-f7a6-4961-8003-6fa9877621f1")
 				(effects
 					(font
@@ -6169,7 +5378,7 @@
 				(end 75.679646 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "c272a29d-4988-4649-acb6-ff0f164f1a36")
 				(effects
 					(font
@@ -6184,7 +5393,7 @@
 				(end 93.172861 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3836f4cc-f5f0-4d59-9082-1e89d2b833e3")
 				(effects
 					(font
@@ -6199,7 +5408,7 @@
 				(end 110.666077 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "b77e5a08-ba97-4940-ba61-f577ff340603")
 				(effects
 					(font
@@ -6214,7 +5423,7 @@
 				(end 124.116435 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "d1c9e1a4-b56a-4ed0-b7d6-7ec3c2cb69b3")
 				(effects
 					(font
@@ -6229,7 +5438,7 @@
 				(end 141.769661 29.377388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "1dbc7fc3-5af8-4cad-9325-bf3b6c96aba9")
 				(effects
 					(font
@@ -6244,7 +5453,7 @@
 				(end 32.4075 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "27caf867-d4be-45c1-a7e9-b760c0213e35")
 				(effects
 					(font
@@ -6259,7 +5468,7 @@
 				(end 58.18643 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "114e8d0c-579c-421f-afc7-6c1c9a405a1d")
 				(effects
 					(font
@@ -6274,7 +5483,7 @@
 				(end 75.679646 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f03a5650-a2e6-41d8-920b-6575155e2ed1")
 				(effects
 					(font
@@ -6289,7 +5498,7 @@
 				(end 93.172861 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3ed0c6f3-111a-4270-8097-ccaa9d22b1e0")
 				(effects
 					(font
@@ -6304,7 +5513,7 @@
 				(end 110.666077 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "fdb1e20b-e259-4a55-914b-cec08a8505cc")
 				(effects
 					(font
@@ -6319,7 +5528,7 @@
 				(end 124.116435 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "954ea1f7-aafb-48d5-9820-27d1b5459504")
 				(effects
 					(font
@@ -6334,7 +5543,7 @@
 				(end 141.769661 33.574776)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "5a70ba27-cfcb-4f4d-9c3b-40026ef5dc9b")
 				(effects
 					(font
@@ -6349,7 +5558,7 @@
 				(end 32.4075 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "7b061c75-3447-4c28-9ed3-b5fabf0904c4")
 				(effects
 					(font
@@ -6364,7 +5573,7 @@
 				(end 58.18643 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "a7bd1091-9093-4de5-9429-f1d28328bbab")
 				(effects
 					(font
@@ -6379,7 +5588,7 @@
 				(end 75.679646 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "44ea6c81-2e64-4352-8635-3350169a5aa2")
 				(effects
 					(font
@@ -6394,7 +5603,7 @@
 				(end 93.172861 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "1efa46d1-3309-42ad-b73d-65160d8e3883")
 				(effects
 					(font
@@ -6409,7 +5618,7 @@
 				(end 110.666077 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "fe9558c8-6369-4dcb-93a1-4ad5e96dbfb1")
 				(effects
 					(font
@@ -6424,7 +5633,7 @@
 				(end 124.116435 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "ea511ae4-2391-401b-bdd3-9cc0b7fa90d8")
 				(effects
 					(font
@@ -6439,7 +5648,7 @@
 				(end 141.769661 37.772164)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "b8573521-c97a-4b98-9d3c-c28ba81f3665")
 				(effects
 					(font
@@ -6454,7 +5663,7 @@
 				(end 32.4075 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "250f3215-098d-4980-be99-dec43a8c6a3d")
 				(effects
 					(font
@@ -6469,7 +5678,7 @@
 				(end 58.18643 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "14988956-58c2-41cd-91c5-b2e5cd17b65c")
 				(effects
 					(font
@@ -6484,7 +5693,7 @@
 				(end 75.679646 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "e0aa0c6b-006a-4a7c-a86a-50acf5ef3d3a")
 				(effects
 					(font
@@ -6499,7 +5708,7 @@
 				(end 93.172861 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "a7c0575e-129c-45aa-b97e-a85eaecb524b")
 				(effects
 					(font
@@ -6514,7 +5723,7 @@
 				(end 110.666077 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "e0b12090-61ee-4804-9e38-b630e6f8827b")
 				(effects
 					(font
@@ -6529,7 +5738,7 @@
 				(end 124.116435 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "4de9a809-ae4f-4bcc-9b11-7e1635e79915")
 				(effects
 					(font
@@ -6544,7 +5753,7 @@
 				(end 141.769661 41.969552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "88749725-2823-4c89-adc4-69f585987b09")
 				(effects
 					(font
@@ -6559,7 +5768,7 @@
 				(end 32.4075 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "56528621-e7e7-4428-825d-c75a1f2407aa")
 				(effects
 					(font
@@ -6574,7 +5783,7 @@
 				(end 58.18643 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f7136664-13bc-45a3-9ee7-614c129edb5b")
 				(effects
 					(font
@@ -6589,7 +5798,7 @@
 				(end 75.679646 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0b8f0b7a-34ed-44d6-a45c-68ae468e46a1")
 				(effects
 					(font
@@ -6604,7 +5813,7 @@
 				(end 93.172861 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "361d4e39-22e7-4cca-bc3c-5992f45a4bbe")
 				(effects
 					(font
@@ -6619,7 +5828,7 @@
 				(end 110.666077 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f505bd01-3491-44eb-a1b1-0ee452d215d5")
 				(effects
 					(font
@@ -6634,7 +5843,7 @@
 				(end 124.116435 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "eaadc9c6-6c00-480d-9346-7c675aaa7acd")
 				(effects
 					(font
@@ -6649,7 +5858,7 @@
 				(end 141.769661 46.174552)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "dce4478c-218d-4295-b1dc-667d5b26fab0")
 				(effects
 					(font
@@ -6664,7 +5873,7 @@
 				(end 32.4075 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "02951782-6b56-4f58-9c6a-cf9f01bc5b04")
 				(effects
 					(font
@@ -6679,7 +5888,7 @@
 				(end 58.18643 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "7fdbbbf7-34b5-45a5-894a-cc37ce7bc9d4")
 				(effects
 					(font
@@ -6694,7 +5903,7 @@
 				(end 75.679646 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "57f012b1-eb09-4139-b0f1-f9dacedc4fc6")
 				(effects
 					(font
@@ -6709,7 +5918,7 @@
 				(end 93.172861 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "495f2e66-04d4-4d91-a390-126dd47e1a61")
 				(effects
 					(font
@@ -6724,7 +5933,7 @@
 				(end 110.666077 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "51559374-8518-4b0f-8edd-af32c0a98020")
 				(effects
 					(font
@@ -6739,7 +5948,7 @@
 				(end 124.116435 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "6c3b6795-452e-4aea-b380-5c494142b280")
 				(effects
 					(font
@@ -6754,7 +5963,7 @@
 				(end 141.769661 50.37194)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "363d4048-7ddc-4f1e-902e-e0ea323df4c7")
 				(effects
 					(font
@@ -6769,7 +5978,7 @@
 				(end 32.4075 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "537bbc97-ae03-4d65-9eff-f3c609d0bb7a")
 				(effects
 					(font
@@ -6784,7 +5993,7 @@
 				(end 58.18643 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "fea099de-1f70-4d59-b052-06a9d710a650")
 				(effects
 					(font
@@ -6799,7 +6008,7 @@
 				(end 75.679646 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "4408f09a-5619-4d63-8431-5db0f6c1b645")
 				(effects
 					(font
@@ -6814,7 +6023,7 @@
 				(end 93.172861 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "44f02a34-f14f-48ac-a6f1-b7626bdb788b")
 				(effects
 					(font
@@ -6829,7 +6038,7 @@
 				(end 110.666077 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3a6457dd-acbd-46fc-a450-70212937bf20")
 				(effects
 					(font
@@ -6844,7 +6053,7 @@
 				(end 124.116435 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "77c47ad8-62f2-448a-b062-02c1ac6286bc")
 				(effects
 					(font
@@ -6859,7 +6068,7 @@
 				(end 141.769661 54.569328)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "6b232c91-c236-428c-b479-e72b3e289717")
 				(effects
 					(font
@@ -6874,7 +6083,7 @@
 				(end 32.4075 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "55f4637b-b317-4068-ad78-daebf80a446f")
 				(effects
 					(font
@@ -6889,7 +6098,7 @@
 				(end 58.18643 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "bcee0810-cc95-4f14-9986-481896c07bf5")
 				(effects
 					(font
@@ -6904,7 +6113,7 @@
 				(end 75.679646 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "bbecc50c-7b5f-46a8-a60c-bcad9ac2a8b9")
 				(effects
 					(font
@@ -6919,7 +6128,7 @@
 				(end 93.172861 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "eeff585f-b12f-4f32-ab55-b52fcdbc8380")
 				(effects
 					(font
@@ -6934,7 +6143,7 @@
 				(end 110.666077 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "5f87398a-9214-41c2-8e5d-9ca2e2a87b41")
 				(effects
 					(font
@@ -6949,7 +6158,7 @@
 				(end 124.116435 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "44c5092a-8506-4bf5-848d-e7df48f2998c")
 				(effects
 					(font
@@ -6964,7 +6173,7 @@
 				(end 141.769661 58.766716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "b65a8559-c81e-47d4-9de3-be21f06df7b1")
 				(effects
 					(font
@@ -6979,7 +6188,7 @@
 				(end 32.4075 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "dc58c64d-dd89-4def-868a-6c2671554b30")
 				(effects
 					(font
@@ -6994,7 +6203,7 @@
 				(end 58.18643 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "8aeafc8a-3329-4e5f-85f7-aa8e3a88825f")
 				(effects
 					(font
@@ -7009,7 +6218,7 @@
 				(end 75.679646 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "6b9cc05b-164f-459e-8862-75ca70b1a18e")
 				(effects
 					(font
@@ -7024,7 +6233,7 @@
 				(end 93.172861 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "e83fd50f-503c-4725-b213-249c1ca48fbd")
 				(effects
 					(font
@@ -7039,7 +6248,7 @@
 				(end 110.666077 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "6434f24d-de19-40be-9504-1593c62e5c6c")
 				(effects
 					(font
@@ -7054,7 +6263,7 @@
 				(end 124.116435 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "41c58bd9-5293-45ac-99ea-dbe715ec0d3c")
 				(effects
 					(font
@@ -7069,7 +6278,7 @@
 				(end 141.769661 62.971716)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "755d2e9f-b59b-4cca-89a7-e1a88d6730e8")
 				(effects
 					(font
@@ -7084,7 +6293,7 @@
 				(end 32.4075 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "973d2f2c-4323-487d-b18a-471714c00893")
 				(effects
 					(font
@@ -7099,7 +6308,7 @@
 				(end 58.18643 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "50722ebd-a955-44bf-9f7f-b0b8a5419a55")
 				(effects
 					(font
@@ -7114,7 +6323,7 @@
 				(end 75.679646 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "617afb26-b377-42eb-a66b-1d0de10018ec")
 				(effects
 					(font
@@ -7129,7 +6338,7 @@
 				(end 93.172861 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "e1722646-6fd4-497f-9a78-dd88df94c55e")
 				(effects
 					(font
@@ -7144,7 +6353,7 @@
 				(end 110.666077 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "82e69060-910f-4a2d-acfe-91ba34262083")
 				(effects
 					(font
@@ -7159,7 +6368,7 @@
 				(end 124.116435 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "aff46987-e88c-406a-8c31-73669867eefc")
 				(effects
 					(font
@@ -7174,7 +6383,7 @@
 				(end 141.769661 67.169104)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "8d232ae4-4afb-4e98-8949-22d74b411e2d")
 				(effects
 					(font
@@ -7189,7 +6398,7 @@
 				(end 32.4075 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3996a1d9-dcb1-4778-a298-f8fc6adfd959")
 				(effects
 					(font
@@ -7204,7 +6413,7 @@
 				(end 58.18643 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "96442676-dcea-4405-9188-3e16b15c04f5")
 				(effects
 					(font
@@ -7219,7 +6428,7 @@
 				(end 75.679646 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "20dbb5c3-fe65-408a-98b9-92af7c2023b5")
 				(effects
 					(font
@@ -7234,7 +6443,7 @@
 				(end 93.172861 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f716d4d3-86a1-4fef-bf54-ed4921ac4bf2")
 				(effects
 					(font
@@ -7249,7 +6458,7 @@
 				(end 110.666077 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "571ce091-a7b1-4009-8517-debc644a7698")
 				(effects
 					(font
@@ -7264,7 +6473,7 @@
 				(end 124.116435 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "24fda217-8813-40c0-9e36-4a0b073dd86a")
 				(effects
 					(font
@@ -7279,7 +6488,7 @@
 				(end 141.769661 71.366492)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "d1bde928-f476-421c-9b7e-b95215e4c9b7")
 				(effects
 					(font
@@ -7294,7 +6503,7 @@
 				(end 32.4075 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "4e9072d0-41eb-4889-aa77-d99378e7c126")
 				(effects
 					(font
@@ -7309,7 +6518,7 @@
 				(end 58.18643 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "26f58b46-4da5-495b-87a9-656dab974451")
 				(effects
 					(font
@@ -7324,7 +6533,7 @@
 				(end 75.679646 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0d432449-5703-4c83-a14c-435243f67369")
 				(effects
 					(font
@@ -7339,7 +6548,7 @@
 				(end 93.172861 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "49d5bb17-d6d4-4b1e-a404-d6ee6a48c8bc")
 				(effects
 					(font
@@ -7354,7 +6563,7 @@
 				(end 110.666077 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "47603f3d-4a6f-42ec-800e-c2499f15d605")
 				(effects
 					(font
@@ -7369,7 +6578,7 @@
 				(end 124.116435 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "d5e22012-a37a-4689-93e5-4503ca1ea517")
 				(effects
 					(font
@@ -7384,7 +6593,7 @@
 				(end 141.769661 75.56388)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "b1f6afef-568d-40fd-96c3-964ab8d119c3")
 				(effects
 					(font
@@ -7399,7 +6608,7 @@
 				(end 32.4075 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "2b98c44d-e01a-416c-a734-d0dc58f0c5e1")
 				(effects
 					(font
@@ -7414,7 +6623,7 @@
 				(end 58.18643 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0291a44f-3263-4e01-b072-46c721b527b2")
 				(effects
 					(font
@@ -7429,7 +6638,7 @@
 				(end 75.679646 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "3f7314e0-db21-4966-8232-f6ff31753720")
 				(effects
 					(font
@@ -7444,7 +6653,7 @@
 				(end 93.172861 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "f2fc0fe9-cca7-463b-9aeb-64daa75dfd89")
 				(effects
 					(font
@@ -7459,7 +6668,7 @@
 				(end 110.666077 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "0ca7cea0-6a66-47d1-a9dc-1ef881c729e8")
 				(effects
 					(font
@@ -7474,7 +6683,7 @@
 				(end 124.116435 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "61e8998f-f2cd-4f79-a3b9-2abcbe10cc8f")
 				(effects
 					(font
@@ -7489,7 +6698,7 @@
 				(end 141.769661 79.761268)
 				(margins 1.0025 1.0025 1.0025 1.0025)
 				(span 1 1)
-				(layer "F.Fab")
+				(layer "Dwgs.User")
 				(uuid "52667285-619a-4384-b9b8-e43f72f95dc6")
 				(effects
 					(font
